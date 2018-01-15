@@ -19,3 +19,7 @@ return [
     ],
 
 ];
+
+// use \think\Route;
+
+// Route::rule('hello','sample/Test/hello');
