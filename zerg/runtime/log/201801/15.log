@@ -720,3 +720,525 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+[ 2018-01-15T00:31:37+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.060951s][吞吐率：16.41req/s] [内存消耗：1,097.88kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T00:31:38+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.038567s][吞吐率：25.93req/s] [内存消耗：1,097.88kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T00:53:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] api.local.cphayim.me/ [运行时间：0.050470s][吞吐率：19.81req/s] [内存消耗：1,097.97kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.local.cphayim.me',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '464ea4df-9a77-4213-a5aa-2f95b5291f39',
+  'cache-control' => 'no-cache',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/cphayim/GitHub/vendors/zerg/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T09:20:02+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.036357s][吞吐率：27.51req/s] [内存消耗：1,097.61kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T09:20:05+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello/a
+[ log ] api.local.cphayim.me/sample/test/hello/a [运行时间：0.034347s][吞吐率：29.11req/s] [内存消耗：1,097.63kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T09:20:11+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello/b/c
+[ log ] api.local.cphayim.me/sample/test/hello/b/c [运行时间：0.026535s][吞吐率：37.69req/s] [内存消耗：1,098.33kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'b' => 'c',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T09:21:57+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.023466s][吞吐率：42.62req/s] [内存消耗：1,097.61kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T09:57:19+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.042199s][吞吐率：23.70req/s] [内存消耗：1,098.58kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/cphayim/GitHub/vendors/zerg/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T09:57:21+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.023401s][吞吐率：42.73req/s] [内存消耗：1,098.58kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/cphayim/GitHub/vendors/zerg/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T10:04:21+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.033169s][吞吐率：30.15req/s] [内存消耗：1,097.69kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T10:11:30+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.031658s][吞吐率：31.59req/s] [内存消耗：1,097.69kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T10:11:35+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.022263s][吞吐率：44.92req/s] [内存消耗：1,097.69kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T10:11:38+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.025267s][吞吐率：39.58req/s] [内存消耗：1,097.69kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T10:11:39+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.022139s][吞吐率：45.17req/s] [内存消耗：1,097.69kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T10:14:43+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.032230s][吞吐率：31.03req/s] [内存消耗：1,097.69kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T10:14:59+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello/abc
+[ log ] api.local.cphayim.me/sample/test/hello/abc [运行时间：0.035244s][吞吐率：28.37req/s] [内存消耗：1,097.63kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-15T10:15:02+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/test/hello
+[ log ] api.local.cphayim.me/sample/test/hello [运行时间：0.021209s][吞吐率：47.15req/s] [内存消耗：1,097.61kb] [文件加载：25]
+[ info ] [ LANG ] /Users/cphayim/GitHub/vendors/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'test',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=755565568; pgv_si=s8440599552',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'api.local.cphayim.me',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ /Users/cphayim/GitHub/vendors/zerg/application/sample/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
